@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C3A149520E29A0900A3E45C /* LeciPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2C3A149420E29A0900A3E45C /* LeciPod.podspec */; };
 		2C7E6ADC20E25135003A1E72 /* LeciPod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E6ADB20E25135003A1E72 /* LeciPod.m */; };
-		2C7E6ADE20E25135003A1E72 /* LeciPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E6ADD20E25135003A1E72 /* LeciPod.podspec */; };
 		2C7E6AE020E25135003A1E72 /* LeciPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7E6ADA20E25135003A1E72 /* LeciPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C7E6AE920E25196003A1E72 /* CourseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7E6AE720E25196003A1E72 /* CourseManager.h */; };
 		2C7E6AEA20E25196003A1E72 /* CourseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E6AE820E25196003A1E72 /* CourseManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C3A149420E29A0900A3E45C /* LeciPod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LeciPod.podspec; sourceTree = "<group>"; };
 		2C7E6AD720E25135003A1E72 /* LeciPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeciPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7E6ADA20E25135003A1E72 /* LeciPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeciPod.h; sourceTree = "<group>"; };
 		2C7E6ADB20E25135003A1E72 /* LeciPod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeciPod.m; sourceTree = "<group>"; };
-		2C7E6ADD20E25135003A1E72 /* LeciPod.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = LeciPod.podspec; sourceTree = "<group>"; tabWidth = 5; };
 		2C7E6ADF20E25135003A1E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C7E6AE720E25196003A1E72 /* CourseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseManager.h; sourceTree = "<group>"; };
 		2C7E6AE820E25196003A1E72 /* CourseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseManager.m; sourceTree = "<group>"; };
@@ -38,6 +38,7 @@
 		2C7E6ACD20E25135003A1E72 = {
 			isa = PBXGroup;
 			children = (
+				2C3A149420E29A0900A3E45C /* LeciPod.podspec */,
 				2C7E6AD920E25135003A1E72 /* LeciPod */,
 				2C7E6AD820E25135003A1E72 /* Products */,
 			);
@@ -57,7 +58,6 @@
 				2C7E6AE620E25181003A1E72 /* CourseManager */,
 				2C7E6ADA20E25135003A1E72 /* LeciPod.h */,
 				2C7E6ADB20E25135003A1E72 /* LeciPod.m */,
-				2C7E6ADD20E25135003A1E72 /* LeciPod.podspec */,
 				2C7E6ADF20E25135003A1E72 /* Info.plist */,
 			);
 			path = LeciPod;
@@ -141,7 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C7E6ADE20E25135003A1E72 /* LeciPod.podspec in Resources */,
+				2C3A149520E29A0900A3E45C /* LeciPod.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
